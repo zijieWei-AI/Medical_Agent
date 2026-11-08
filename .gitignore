@@ -1,0 +1,55 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 密钥与本地配置（切勿提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# 日志与运行时产物
+*.log
+logs/
+tmp/
+.cache/
+
+# 数据与模型文件（按需调整）
+*.sqlite
+*.sqlite3
+*.db
+data/raw/
+models/*.bin
+models/*.safetensors
